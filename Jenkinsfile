@@ -3,7 +3,7 @@ pipeline {
         label 'master'
     }
     environment{
-        SONAR_TOKEN = '8ebceab53f42cbc5cd7bd068229848cad008da6d'
+        SONAR_TOKEN = '619a011af2908678df5a42bd56c32c67e5d7c720'
     }
     stages {
         stage('Build') {
